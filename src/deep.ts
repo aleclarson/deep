@@ -1,7 +1,7 @@
 const { isArray } = Array
 const objectRE = /^(function|object)$/
 
-type Prop = (keyof any) | (keyof any)[]
+type Prop = (keyof any) | Array<keyof any>
 type Default<T, U> = undefined extends U
   ? T
   : T extends undefined
@@ -61,12 +61,7 @@ export function set(obj: any, prop: any, val: any, i: number = 0) {
     let child = obj[path[i]]
     obj = child == null ? (obj[path[i]] = {}) : child
     if (objectRE.test(typeof obj)) i++
-    else
-      throw Error(
-        `Expected "${path
-          .slice(0, i + 1)
-          .join('.')}" to be an object or nullish`
-      )
+    else throw Error(`Expected "${path.slice(0, i + 1).join('.')}" to be an object or nullish`) // prettier-ignore
   }
   if (obj && i == last) obj[path[i]] = val
   return val

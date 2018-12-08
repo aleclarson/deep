@@ -1,0 +1,7 @@
+{
+  "extends": "tslint-mango",
+  "rules": {
+    "no-default-export": false,
+    "one-variable-per-declaration": false
+  }
+}
