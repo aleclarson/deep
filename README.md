@@ -1,10 +1,10 @@
 # deep
 
-[![npm](https://img.shields.io/npm/v/aleclarson/deep.svg)](https://www.npmjs.com/package/aleclarson/deep)
+[![npm](https://img.shields.io/npm/v/@aleclarson/deep.svg)](https://www.npmjs.com/package/@aleclarson/deep)
 [![Build status](https://travis-ci.org/aleclarson/deep.svg?branch=master)](https://travis-ci.org/aleclarson/deep)
 [![codecov](https://codecov.io/gh/aleclarson/deep/branch/master/graph/badge.svg)](https://codecov.io/gh/aleclarson/deep)
-[![Bundle size](https://badgen.net/bundlephobia/min/aleclarson/deep)](https://bundlephobia.com/result?p=aleclarson/deep)
-[![Install size](https://packagephobia.now.sh/badge?p=aleclarson/deep)](https://packagephobia.now.sh/result?p=aleclarson/deep)
+[![Bundle size](https://badgen.net/bundlephobia/min/@aleclarson/deep)](https://bundlephobia.com/result?p=@aleclarson/deep)
+[![Install size](https://packagephobia.now.sh/badge?p=@aleclarson/deep)](https://packagephobia.now.sh/result?p=@aleclarson/deep)
 [![Code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/alecdotbiz)
 
