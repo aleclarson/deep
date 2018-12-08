@@ -1,0 +1,24 @@
+{
+  "name": "@aleclarson/deep",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Deep get/set/delete",
+  "repository": "aleclarson/deep",
+  "main": "lib/deep.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "jest --coverage",
+    "debug": "jest -i --watch --no-cache"
+  },
+  "devDependencies": {
+    "@sucrase/jest-plugin": "^2.0.0",
+    "@types/jest": "^23.3.10",
+    "codecov": "^3.1.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3",
+    "typescript": "^3.2.2"
+  }
+}
